@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jethalal-University.com</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css
+">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js
+"></script>
+
+    <style>
+        body{
+            scroll-behavior: smooth;
+            transition: all 0.4s;
+        }
+        nav {
+            box-shadow: 0px 0px 10px 1px white;
+        }
+
+        .navbar-brand {
+            color: white;
+        }
+
+        .navbar-nav .active {
+            color: white;
+            font-weight: bold;
+        }
+
+        .navbar-nav a {
+            margin: 0px 10px;
+            color: white;
+        }
+
+        #main {
+            position: relative;
+        }
+
+        #main::before {
+            height: 100%;
+            width: 100%;
+            content: "";
+            position: absolute;
+            background: rgba(0, 0, 0, 0.4) url("https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg") center center/cover no-repeat;
+            background-blend-mode: darken;
+            z-index: -1;
+        }
+
+        #contact {
+            min-height: 75vh;
+            position: relative;
+            background-color: rgb(244, 241, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark position-fixed bg-dark h5" style=" width: 100%; z-index: 1;">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <h2>Jethalal University</h2>
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto text-uppercase">
+                    <a href="#main" class="nav-item nav-link active">Home</a>
+                    <a href="#programs" class="nav-item nav-link">Programs</a>
+                    <a href="#courses" class="nav-item nav-link">Courses</a>
+                    <a href="#blogs" class="nav-item nav-link">Blogs</a>
+                    <a href="#contact" class="nav-item nav-link">Contact</a>
+                </div>
+                <div class="navbar-nav ms-auto">
+                    <button class="btn  px-4 border-white">
+                        <a href="#" class="nav-item nav-link text-white text-uppercase">Register</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section id="main" style="height: 100vh;">
+        <div class="container d-flex flex-column align-items-left justify-content-center h-100 p-5">
+            <h6 class="text-uppercase text-white mb-4">Campus Community</h6>
+            <h1 class="text-white text-uppercase fw-light">Become a Part of Our Campus</h1>
+            <h1 class="text-white">
+                <span class="fw-light">and </span>
+                <span class="fst-italic">Make Freinds</span>
+            </h1>
+            <button class="btn btn-lg w-25 border-white mt-3">
+                <a href="#" class="nav-item nav-link text-white text-uppercase fw-normal">Register Yourself</a>
+            </button>
+
+        </div>
+    </section>
+    <section id="programs">
+        <div class="container d-flex flex-column align-items-center justify-content-center w-full my-5">
+            <div class="container d-flex flex-column align-items-center justify-content-center w-50">
+
+                <h1 class="display-5" style="margin-top: 8rem;">Academic Programs</h1>
+
+                <p class="mt-4 text-center">At our college, you will find small classes, fascinating course topics, and
+                    a variety of
+                    personalized degree programs.</p>
+            </div>
+            <div class="row my-3 text-center" style="width: 100%;">
+                <div class="col mx-3 border fw-light w-auto py-5 bg-primary text-white h5">Accounting</div>
+                <div class="col mx-3 border fw-light w-auto py-5 bg-primary text-white h5">Business Management</div>
+                <div class="col mx-3 border fw-light w-auto py-5 bg-primary text-white h5">Computer-Technology</div>
+                <div class="col mx-3 border fw-light w-auto py-5 bg-primary text-white h5">Electronics-Technology</div>
+            </div>
+            <div class="row my-3 text-center" style="width: 100%;">
+                <div class="col mx-3 border fw-light w-auto py-5 bg-primary text-white h5">Medical Science</div>
+                <div class="col mx-3 border fw-light w-auto py-5 bg-primary text-white h5">Office Technology</div>
+                <div class="col mx-3 border fw-light w-auto py-5 bg-primary text-white h5">Paralegal Studies</div>
+                <div class="col mx-3 border fw-light w-auto py-5 bg-primary text-white h5">Online Programs</div>
+            </div>
+        </div>
+        <div class="container" style="background-color: rgb(223, 223, 223);">
+            <div class="row py-4">
+                <div class="col-sm">
+                    <div class="card py-5">
+                        <h2 class="fw-light py-5 text-center">A Few Words About Us</h2>
+                        <p class="px-5 pb-5">At Chester College, we aim to deliver high-quality education and training
+                            that responds to the needs of employers and individuals. We are working to deliver courses
+                            that are developed in conjunction with employers.</p>
+                        <button class="btn btn-lg w-50 text-uppercase mx-auto py-2 mb-4 text-white fw-normal"
+                            style="background-color: orangered;">
+                            Read More
+                        </button>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="card p-5">
+                        <img src="https://images.pexels.com/photos/2982449/pexels-photo-2982449.jpeg" alt="university"
+                            class="rounded mx-auto" style="width: 80%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="py-5">
+        <div class="container-fluid">
+            <div class="container">
+                <h1 class="text-center fw-light py-5">Our Featured Courses</h1>
+                <div class="row">
+                    <div class="col">
+                        <div class="img">
+                            <img
+                                src="https://livedemo00.template-help.com/wt_prod-23198/images/grid-gallery-1-370x260.jpg">
+                        </div>
+                        <h5 class="fw-light p-2">Teacher : <span class="text-danger">
+                                Mr. Arvind Kejriwal
+                            </span></h5>
+                        <h5 class="fw-normal px-2 pb-4 mb-2">Financial Analyst Course</h5>
+                    </div>
+                    <div class="col">
+                        <div class="img">
+                            <img
+                                src="https://livedemo00.template-help.com/wt_prod-23198/images/grid-gallery-2-370x260.jpg">
+                        </div>
+                        <h5 class="fw-light p-2">Teacher : <span class="text-danger">
+                                Mr. Bhargav Rao
+                            </span></h5>
+                        <h5 class="fw-normal px-2 pb-4 mb-2">Digital Marketing Course</h5>
+                    </div>
+                    <div class="col">
+                        <div class="img">
+                            <img
+                                src="https://livedemo00.template-help.com/wt_prod-23198/images/grid-gallery-3-370x260.jpg">
+                        </div>
+                        <h5 class="fw-light p-2">Teacher : <span class="text-danger">
+                                Prof. Roshan Singh Sodhi
+                            </span></h5>
+
+                        <h5 class="fw-normal px-2 pb-4 mb-2">Graphic Design Course</h5>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="img">
+                            <img
+                                src="https://livedemo00.template-help.com/wt_prod-23198/images/grid-gallery-4-370x260.jpg">
+                        </div>
+                        <h5 class="fw-light p-2">Teacher : <span class="text-danger">
+                                Mr. Arvind Kejriwal
+                            </span></h5>
+                        <h5 class="fw-normal px-2 pb-4 mb-2">Computer Science</h5>
+                    </div>
+                    <div class="col">
+                        <div class="img">
+                            <img
+                                src="https://livedemo00.template-help.com/wt_prod-23198/images/grid-gallery-5-370x260.jpg">
+                        </div>
+                        <h5 class="fw-light p-2">Teacher : <span class="text-danger">
+                                Mr. Bhargav Rao
+                            </span></h5>
+                        <h5 class="fw-normal px-2 pb-4 mb-2">Political Economy</h5>
+                    </div>
+                    <div class="col">
+                        <div class="img">
+                            <img
+                                src="https://livedemo00.template-help.com/wt_prod-23198/images/grid-gallery-6-370x260.jpg">
+                        </div>
+                        <h5 class="fw-light p-2">Teacher : <span class="text-danger">
+                                Prof. Roshan Singh Sodhi
+                            </span></h5>
+
+                        <h5 class="fw-normal px-2 pb-4 mb-2">Mathematics and Statistics</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <button class="btn btn-lg bg-danger text-uppercase text-center text-white ms-auto"> View All Courses
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="blogs">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row text-center pt-4">
+                    <h1 class="fw-light py-3">Latest Blogs</h1>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="https://images.pexels.com/photos/7972746/pexels-photo-7972746.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                    class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Reward Ceremony
+                                </h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia praesentium officiis,
+                                    nesciunt harum libero sint obcaecati quod veniam corporis suscipit.
+                                </p>
+                                <a href="#!" class="btn btn-primary">Read</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="https://images.pexels.com/photos/7972949/pexels-photo-7972949.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                    class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Coding Comptition</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi maxime iste
+                                    doloremque tenetur magnam, reprehenderit blanditiis atque nostrum excepturi vel.
+                                </p>
+                                <a href="#!" class="btn btn-primary">Read</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="https://images.pexels.com/photos/906073/pexels-photo-906073.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                                    class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title"> Annual Sports Meet</h5>
+                                <p class="card-text">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, consectetur!
+                                    Doloribus libero sunt, inventore laudantium incidunt neque voluptate magnam alias.
+                                </p>
+                                <a href="#!" class="btn btn-primary">Read</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row py-5">
+                    <h1 class="fw-light text-center">Contact us</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <h3 class="fw-light">Get In Touch</h3>
+                        </div>
+
+                        <form class="border my-3 p-5">
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1 " class="h5">Enter name</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1" class="h5">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="name@example.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1" class="h5">Example textarea</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+
+                            <div class="form-group my-3 ms-auto">
+                                <button class="btn btn-primary w-100">Send</button>
+                            </div>
+                    </div>
+                    <div class="col">
+                        <div class="row pb-3 px-5">
+                            <h3 class="fw-light">Contact Iformation</h3>
+                        </div>
+                        <div class="box p-5">
+                            <h1 class=" py-5">
+                                1-800-1234-567</h1>
+                            <h1 class="py-5">abcuniversity@email.com</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark">
+         <h4 class="text-white py-4 text-center">
+            ABC University © 2022 All Rights Reserved.
+         </h4>
+    </footer>
+</body>
+
+</html>
